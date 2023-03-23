@@ -1,0 +1,7 @@
+C:\Users\I40265\source\repos\Excepciones\Excepciones\bin\Debug\Excepciones.exe.config
+C:\Users\I40265\source\repos\Excepciones\Excepciones\bin\Debug\Excepciones.exe
+C:\Users\I40265\source\repos\Excepciones\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\I40265\source\repos\Excepciones\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\I40265\source\repos\Excepciones\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\I40265\source\repos\Excepciones\Excepciones\obj\Debug\Excepciones.exe
+C:\Users\I40265\source\repos\Excepciones\Excepciones\obj\Debug\Excepciones.pdb
