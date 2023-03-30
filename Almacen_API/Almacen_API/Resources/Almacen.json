@@ -1,0 +1,51 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "Camiseta Deportiva",
+    "Descripcion": "Desc 1",
+    "FechaEntrada": "28/03/2023",
+    "cantidad": 100
+  },
+  {
+    "Id": 2,
+    "Nombre": "Pantalones deportivos",
+    "Descripcion": "Desc 2",
+    "FechaEntrada": "21/02/2023",
+    "cantidad": 50
+  },
+  {
+    "Id": 3,
+    "Nombre": "Zapatillas deportivas",
+    "Descripcion": "Desc 3",
+    "FechaEntrada": "18/02/2023",
+    "cantidad": 80
+  },
+  {
+    "Id": 4,
+    "Nombre": "Gafas Deportivas",
+    "Descripcion": "Desc 4",
+    "FechaEntrada": "08/02/2023",
+    "cantidad": 120
+  },
+  {
+    "Id": 5,
+    "Nombre": "Calcetines Deportivos",
+    "Descripcion": "Desc 5",
+    "FechaEntrada": "10/02/2023",
+    "cantidad": 200
+  },
+  {
+    "Id": 6,
+    "Nombre": "Gorra Deportiva",
+    "Descripcion": "Desc 6",
+    "FechaEntrada": "13/02/2023",
+    "cantidad": 20
+  },
+  {
+    "Id": 7,
+    "Nombre": "Prueba",
+    "Descripcion": "Desc_prueba",
+    "FechaEntrada": "12/02/21",
+    "cantidad": 10
+  }
+]
