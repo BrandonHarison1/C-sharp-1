@@ -13,7 +13,7 @@ namespace testFinalAPI.Repositories
     public class ActorRepository : IActorRepository
     {
 
-        const string JSON_PATH = @"C:\Users\I40265\source\repos\testFinalAPI\testFinalAPI\Resources\Actores.json";
+        const string JSON_PATH = @"C:\Users\I40265\source\repos\EjerciciosWebAPI\testFinalAPI\testFinalAPI\Resources\Actores.json";
 
         private string GetActorsFromFile()
         {

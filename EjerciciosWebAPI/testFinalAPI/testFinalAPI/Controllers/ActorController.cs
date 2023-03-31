@@ -18,19 +18,26 @@ namespace testFinalAPI.Controllers
             _actorRepository = actorRepository;
         }
 
-        [HttpGet("GetActors")]
+        [HttpGet]
         public ActionResult<List<Actor>> Get()
         {
-            return _actorRepository.GetActors();
+            try
+            {
+                _actorRepository.GetActors();
+                return Ok();
+            } catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
-        [HttpGet("GetActorById/id")]
+        [HttpGet("{id}")]
         public ActionResult<Actor> GetActorById(int id)
         {
             return _actorRepository.GetActorById(id);
         }
 
-        [HttpPost("/DeleteActor/id")]
+        [HttpDelete("{id}")]
         public ActionResult<Actor> DeleteActor(int id)
         {
             try
@@ -44,7 +51,7 @@ namespace testFinalAPI.Controllers
             }
         }
 
-        [HttpPost("AddActor")]
+        [HttpPost]
         public ActionResult CreateActor(Actor actor)
         {
             try
@@ -58,7 +65,7 @@ namespace testFinalAPI.Controllers
             }
         }
 
-        [HttpPost("UpdateActor/Actor")]
+        [HttpPut]
         public ActionResult UpdateActor(Actor actor)
         {
             try
