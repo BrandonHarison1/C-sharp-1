@@ -27,6 +27,7 @@ namespace TestApp
             catch
             {
                 return INVALID_EMAIL;
+
             }
         }
     }
